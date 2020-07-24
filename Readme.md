@@ -1,8 +1,11 @@
-Super Retroboy Theme designed by Travis Wilson (Super Retropie)
+Modified **blue** variant of the SuperRetroBoy theme for the Odroid Go Advance and it's alternatives. Theme is made for 480x320 resolution displays. Install it into your "~/.emulationstation/themes" directory (create the folder if it does not already exist). 
+
+Credit belongs to Travis Wilson, I merely edited the mainmenu and game select images, but they were the original creator of all of the logo assets and xmls the theme is based on. 
+
+Super Retroboy Theme originally designed by Travis Wilson (Super Retropie)
 facebook:		www.facebook.com/groups/superretropie
 twitter:		www.twitter.com/superretropie
 email:			superretropieretrogaming@gmail.com
-version         2.0
 
 ------------------------------------------------------------------------------------------
 
