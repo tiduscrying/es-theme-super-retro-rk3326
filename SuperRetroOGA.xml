@@ -1,8 +1,8 @@
 <!--
 theme name:     Super Retro OGA Theme
 based on:       Super Retro Boy Theme (Travis Wilson)
-version:        1.0
-thanks to:      Christian_Haitian (theRA for RK2020), shu (font suggestions)
+version:        1.2
+thanks to:      Christian_Haitian (theRA for RK2020), shu (font suggestions -- even if I changed my mind ;) )
 -->
 
 <?xml version="1.0" encoding="UTF-8"?>
@@ -33,7 +33,7 @@ thanks to:      Christian_Haitian (theRA for RK2020), shu (font suggestions)
          <pos>0.0 0.58</pos>
          <backgroundColor>00000000</backgroundColor>
          <color>ffffff</color>
-         <fontPath>./_inc/fonts/LEMONMILK-MediumItalic.otf</fontPath>
+         <fontPath>./_inc/fonts/Instruction Italic.otf</fontPath>
 	     <fontSize>0.04</fontSize>
          <zIndex>5</zIndex>	     
       </text>            
@@ -66,7 +66,7 @@ thanks to:      Christian_Haitian (theRA for RK2020), shu (font suggestions)
          <selectedColor>ffffff</selectedColor>
          <primaryColor>ffffff</primaryColor>
          <secondaryColor>3eb4ff</secondaryColor>
-         <fontPath>./_inc/fonts/LEMONMILK-Medium.otf</fontPath>
+         <fontPath>./_inc/fonts/Instruction Bold.otf</fontPath>
          <fontSize>0.05</fontSize>
          <forceUppercase>1</forceUppercase>
          <scrollSound>./_inc/sounds/Move.wav</scrollSound>
@@ -85,7 +85,7 @@ thanks to:      Christian_Haitian (theRA for RK2020), shu (font suggestions)
    <view name="basic">
       <textlist name="gamelist">                          
          <pos>0.03 0.19</pos>
-         <size>.937 0.69</size>
+         <size>.937 0.7</size>
          <alignment>center</alignment>                       
       </textlist>
    </view>
@@ -128,7 +128,7 @@ thanks to:      Christian_Haitian (theRA for RK2020), shu (font suggestions)
       <image name="md_image">
          <origin>0.5 0.5</origin>
          <pos>0.75 0.66</pos>
-         <maxSize>0.45 0.45</maxSize>
+         <maxSize>0.5 0.5</maxSize>
          <zIndex>2</zIndex>         
       </image>      
    </view>
