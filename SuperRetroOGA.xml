@@ -1,7 +1,8 @@
 <!--
 theme name:     Super Retro OGA Theme
 based on:       Super Retro Boy Theme (Travis Wilson)
-version:        1.2
+version:        1.3
+changes:        Adjusted font sizes for new ES build. Changed monowidth font to "MODENINE" to resolve weird resize glitch.
 thanks to:      Christian_Haitian (theRA for RK2020), shu (font suggestions -- even if I changed my mind ;) )
 -->
 
@@ -33,8 +34,8 @@ thanks to:      Christian_Haitian (theRA for RK2020), shu (font suggestions -- e
          <pos>0.0 0.58</pos>
          <backgroundColor>00000000</backgroundColor>
          <color>ffffff</color>
-         <fontPath>./_inc/fonts/Instruction Italic.otf</fontPath>
-	     <fontSize>0.04</fontSize>
+         <fontPath>./_inc/fonts/MODENINE.TTF</fontPath>
+	     <fontSize>0.035</fontSize>
          <zIndex>5</zIndex>	     
       </text>            
    </view>
@@ -43,7 +44,7 @@ thanks to:      Christian_Haitian (theRA for RK2020), shu (font suggestions -- e
    <view name="system">
       <helpsystem name="help">
          <fontPath>./_inc/fonts/RobotoCondensed-Regular.ttf</fontPath>
-         <fontSize>0.04</fontSize>     
+         <fontSize>0.03</fontSize>     
          <pos>0.04 0.95</pos>      
          <textColor>ffffff</textColor>
          <iconColor>ffffff</iconColor>
@@ -53,7 +54,7 @@ thanks to:      Christian_Haitian (theRA for RK2020), shu (font suggestions -- e
    <view name="detailed,video,basic">
       <helpsystem name="help">
          <fontPath>./_inc/fonts/RobotoCondensed-Regular.ttf</fontPath>
-         <fontSize>0.04</fontSize>     
+         <fontSize>0.03</fontSize>     
          <pos>0.04 0.95</pos>      
          <textColor>ffffff</textColor>
          <iconColor>ffffff</iconColor>
@@ -66,8 +67,8 @@ thanks to:      Christian_Haitian (theRA for RK2020), shu (font suggestions -- e
          <selectedColor>ffffff</selectedColor>
          <primaryColor>ffffff</primaryColor>
          <secondaryColor>3eb4ff</secondaryColor>
-         <fontPath>./_inc/fonts/Instruction Bold.otf</fontPath>
-         <fontSize>0.05</fontSize>
+         <fontPath>./_inc/fonts/MODENINE.TTF</fontPath>
+         <fontSize>0.035</fontSize>
          <forceUppercase>1</forceUppercase>
          <scrollSound>./_inc/sounds/Move.wav</scrollSound>
          <zIndex>3</zIndex>                          
@@ -159,6 +160,7 @@ thanks to:      Christian_Haitian (theRA for RK2020), shu (font suggestions -- e
          <origin>0.5 0.5</origin>
          <pos>0.825 0.31</pos>
          <size>0.6 0.6</size>
+         <fontSize>0.02</fontSize>
          <color>ffffff</color>
          <zIndex>2</zIndex> 
       </text>
@@ -166,6 +168,7 @@ thanks to:      Christian_Haitian (theRA for RK2020), shu (font suggestions -- e
          <origin>0.5 0.5</origin>
          <pos>0.925 0.31</pos>
          <size>0.6 0.6</size>
+         <fontSize>0.02</fontSize>
          <color>ffffff</color>
          <zIndex>2</zIndex>
       </text>
@@ -173,6 +176,7 @@ thanks to:      Christian_Haitian (theRA for RK2020), shu (font suggestions -- e
          <origin>0.5 0.5</origin>
          <pos>0.825 0.35</pos>
          <size>0.6 0.6</size>
+         <fontSize>0.02</fontSize>
          <color>ffffff</color>
          <zIndex>2</zIndex>                  
       </text>
@@ -180,6 +184,7 @@ thanks to:      Christian_Haitian (theRA for RK2020), shu (font suggestions -- e
          <origin>0.5 0.5</origin>
          <pos>0.925 0.35</pos>
          <size>0.6 0.6</size>
+         <fontSize>0.02</fontSize>
          <color>ffffff</color>
          <zIndex>2</zIndex>         
       </datetime>
